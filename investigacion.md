@@ -3,8 +3,12 @@
 ## 1. Que es
 La validacion de entradas consiste en revisar que los datos que escribe el usuario cumplan con el formato y rango esperado antes de usarlos en el programa. Evita errores y comportamientos inesperados.
 
+Fuente: OWASP, Input Validation Cheat Sheet - https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+
 ## 2. Que pasa si no se valida
 Si no se valida, el programa puede caerse (excepciones), calcular mal o mostrar informacion sensible. Ejemplo: en el codigo original, escribir letras en las notas provoca un FormatException y el programa se detiene.
+
+Fuente: Microsoft, Int32.Parse Method - https://learn.microsoft.com/en-us/dotnet/api/system.int32.parse
 
 ## 3. Que recomienda OWASP
 OWASP recomienda validar todas las entradas del usuario en el servidor, preferir listas blancas (solo aceptar lo permitido), rechazar datos invalidos de forma clara y nunca confiar en lo que viene del cliente. Tambien sugiere sanitizar los datos antes de usarlos para evitar inyecciones y otros ataques.
