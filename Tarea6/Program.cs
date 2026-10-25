@@ -10,7 +10,7 @@ public static class Validador
         while (true)
         {
             Console.Write(mensaje);
-            string entrada = Console.ReadLine();
+            string? entrada = Console.ReadLine();
 
             if (int.TryParse(entrada, out valor) && valor >= min && valor <= max)
             {
@@ -25,7 +25,7 @@ public static class Validador
         while (true)
         {
             Console.Write(mensaje);
-            string texto = Console.ReadLine();
+            string? texto = Console.ReadLine();
 
             if (!string.IsNullOrWhiteSpace(texto))
             {
