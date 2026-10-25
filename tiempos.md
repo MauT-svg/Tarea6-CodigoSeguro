@@ -16,3 +16,21 @@ Al insertar al final ambas son rapidas, pero List suele ser un poco mas eficient
 
 Nota: Los tiempos fueron medidos en las computadoras de Mauricio y Johana el dia de la entrega. Los resultados confirman que LinkedList es mucho mas eficiente al insertar al inicio.
 
+
+
+\## Observacion final
+
+
+
+En ambas computadoras se repitio el mismo patron:
+
+\- Insertar al inicio en List es significativamente mas lento.
+
+\- LinkedList mantiene tiempos bajos tanto al inicio como al final.
+
+\- Esto demuestra la diferencia de complejidad entre las dos estructuras.
+
+
+
+
+
