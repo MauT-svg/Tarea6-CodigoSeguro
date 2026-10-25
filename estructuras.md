@@ -11,3 +11,6 @@ Arreglo o List. Son 7 valores fijos y se consultan por posición (día).
 
 ## d) Lista de reproduccion
 LinkedList. Se insertan y eliminan canciones en medio frecuentemente.
+
+---
+Respuestas elaboradas por el equipo.
