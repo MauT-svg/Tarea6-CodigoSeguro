@@ -7,3 +7,5 @@
 | 3 | suma / notas.Length | División de enteros | Pierde decimales | (double)suma / notas.Length |
 | 4 | Console.WriteLine("Tu PIN " + pin...) | Muestra el PIN real | Información sensible visible | new string('*', pin.Length) |
 | 5 | pendientes.Pop() | Pila vacía | InvalidOperationException | if (pendientes.Count > 0) |
+
+Nota: Estas fallas fueron identificadas a partir del codigo inseguro proporcionado en clase.
