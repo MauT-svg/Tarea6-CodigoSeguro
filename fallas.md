@@ -1,4 +1,4 @@
-#  Tabla de fallas
+# Tabla de fallas
 
 | # | Linea o instruccion | Que falla | Que puede pasar | Como se corrige |
 |---|---------------------|-----------|-----------------|-----------------|
